@@ -4,11 +4,12 @@ import java.util.NoSuchElementException;
 
 public class TablaEnteros {
 private Integer[] tabla; 
-
+//hola
 public TablaEnteros(Integer[] tabla) { 
 	if (tabla == null || tabla.length == 0) 
 		throw new IllegalArgumentException("No hay elementos");
 		this.tabla = tabla; 
+		System.out.println("HOLA");
 }
 
 //devuelve la suma de los elementos de la tabla
